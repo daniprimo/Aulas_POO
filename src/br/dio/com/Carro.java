@@ -1,6 +1,6 @@
 package br.dio.com;
 
-public class Carro {
+public class Carro extends Veiculo {
 
     String modelo;
     String cor;
@@ -18,7 +18,7 @@ public class Carro {
                 this.capacidadeDoTanque = capacidadeDoTanque;
         }
 
-    // Getts e Setts************************************
+    // Setts (Atribuição de valores *this.*) e Getts (saida de valor) ************************************
 
     void setCor (String cor){
         this.cor = cor;
